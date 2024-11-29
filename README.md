@@ -21,7 +21,7 @@ CLIGame includes such functions as:
 - Setting custom border and title for output screen
 
 ## Installing
-By running `pip install CLIGame` will be installed:
+By running `pip install` will be installed:
 - CLIGame itself
 - Pynput dependency
 - Playsound dependency

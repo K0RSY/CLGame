@@ -1,4 +1,3 @@
-#!.venv/bin/python3
 import CLIGame
 
 screen = CLIGame.Screen(100, 20, title="[ Penis ]")

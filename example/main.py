@@ -1,32 +1,29 @@
 import CLIGame
 
-screen = CLIGame.Screen(100, 20, title="[ Penis ]")
+screen = CLIGame.Screen(100, 20, title="[ Test ]")
 clock = CLIGame.Clock(30)
 speaker = CLIGame.Speaker()
 reader = CLIGame.Reader()
 
 sprite = ""
 sprite += "---------\n"
-sprite += "|   п   |\n"
+sprite += "|   т   |\n"
 sprite += "|   е   |\n"
-sprite += "|   н   |\n"
-sprite += "|   и   |\n"
 sprite += "|   с   |\n"
+sprite += "|   т   |\n"
 sprite += "---------\n"
 
-screen.draw_sprite(0, 0, sprite)
-screen.draw_sprite(92, 5, sprite)
-screen.draw_file(7, 3, "./sources/image.txt")
+screen.draw_file(45, 10, "./sources/image.txt")
 
 speaker.play("./sources/p.mp3")
 
 def sigma():
-    print("Penis")
+    print("Test")
 
-reader.bind("s", sigma)
+reader.bind("t", sigma)
 
 for i in range(0, 20):
-    screen.draw_sprite(i, i, sprite)
+    screen.draw_sprite(i*4, i*i//5, sprite)
     screen.print()
     
     clock.tick()

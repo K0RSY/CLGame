@@ -23,7 +23,7 @@ CLIGame includes such functions as:
 ## Installing
 By running `pip install CLIGame` will be installed:
 - CLIGame itself
-- Punput dependency
+- Pynput dependency
 - Playsound dependency
 
 ## Using

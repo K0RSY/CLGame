@@ -2,7 +2,7 @@
 ![GitHub Created At](https://img.shields.io/github/created-at/K0RSY/CLIGame) ![GitHub last commit](https://img.shields.io/github/last-commit/K0RSY/CLIGame) ![GitHub Release Date](https://img.shields.io/github/release-date/K0RSY/CLIGame)
 
 ## Navigation
-- [What is CLIGame](#-what-is-cligame)
+- [What is CLIGame](#what-is-cligame)
 
 ## Features
 

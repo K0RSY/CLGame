@@ -25,6 +25,9 @@ Used libraries:
 - [Pynput](https://github.com/moses-palmer/pynput) by Moses Palmer
 - [Playsound](https://github.com/TaylorSMarks/playsound) by Taylor Marks
 
+## Installing
+You can install CLGame by ...
+
 ## Using
 Detailed guide on how to use it are on the [wiki](https://github.com/K0RSY/CLGame/wiki)
 

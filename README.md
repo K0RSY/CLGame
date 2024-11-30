@@ -34,6 +34,7 @@ Then you have to unzip it into a folder, go into it and run:
 ```bash
 python setup.py install
 ```
+Finally, you can delete the temporary zip archive and folder.
 
 ## Using
 Detailed guide on how to use it is on the [wiki](https://github.com/K0RSY/CLGame/wiki)

@@ -39,5 +39,3 @@ Finally, you can delete the temporary zip archive and folder.
 
 ## Using
 Detailed guide on how to use it is on the [wiki](https://github.com/K0RSY/CLGame/wiki)
-
-## [Back to top](#clgame)

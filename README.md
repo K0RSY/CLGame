@@ -26,7 +26,14 @@ Used libraries:
 - [Playsound](https://github.com/TaylorSMarks/playsound) by Taylor Marks
 
 ## Installing
-You can install CLGame by ...
+You can install CLGame by clonning repo:
+```bash
+git clone https://github.com/K0RSY/CLGame.git
+```
+Then you have to unzip it into a folder, go into it and run:
+```bash
+python setup.py install
+```
 
 ## Using
 Detailed guide on how to use it are on the [wiki](https://github.com/K0RSY/CLGame/wiki)

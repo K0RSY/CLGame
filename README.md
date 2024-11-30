@@ -5,7 +5,7 @@
 ## Navigation
 - [What is CLGame](#what-is-clgame)
 - [Features](#features)
-- [Installing](#installing)
+- [Libraries](#libraries)
 - [Using](#using)
 
 ## What is CLGame
@@ -20,11 +20,10 @@ CLGame includes such functions as:
 - Key binding
 - Setting custom border and title for output screen
 
-## Installing
-By running `pip install CLGame` will be installed:
-- CLGame itself
-- Pynput dependency
-- Playsound dependency
+## Libraries
+Used libraries:
+- [Pynput](https://github.com/moses-palmer/pynput) by Moses Palmer
+- [Playsound](https://github.com/TaylorSMarks/playsound) by Taylor Marks
 
 ## Using
 Detailed guide on how to use it are on the [wiki](https://github.com/K0RSY/CLGame/wiki)

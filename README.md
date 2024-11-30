@@ -36,6 +36,6 @@ python setup.py install
 ```
 
 ## Using
-Detailed guide on how to use it are on the [wiki](https://github.com/K0RSY/CLGame/wiki)
+Detailed guide on how to use it is on the [wiki](https://github.com/K0RSY/CLGame/wiki)
 
 ## [Back to top](#clgame)

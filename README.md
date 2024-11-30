@@ -6,6 +6,7 @@
 - [What is CLGame](#what-is-clgame)
 - [Features](#features)
 - [Libraries](#libraries)
+- [Installing](#installing)
 - [Using](#using)
 
 ## What is CLGame

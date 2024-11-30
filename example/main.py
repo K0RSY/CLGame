@@ -1,9 +1,9 @@
-import CLIGame
+import CLGame
 
-screen = CLIGame.Screen(100, 20, title="[ Test ]")
-clock = CLIGame.Clock(30)
-speaker = CLIGame.Speaker()
-reader = CLIGame.Reader()
+screen = CLGame.Screen(100, 20, title="[ Test ]")
+clock = CLGame.Clock(30)
+speaker = CLGame.Speaker()
+reader = CLGame.Reader()
 
 sprite = ""
 sprite += "---------\n"

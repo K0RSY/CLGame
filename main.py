@@ -5,7 +5,7 @@ from os import system
 from threading import Thread
 
 class Screen():
-    def __init__(self, width: int, height: int, title: str = "CLIGame", border: bool = True, border_symbols: str = "┌─┐││└─┘", space_symbol: str = "`"):
+    def __init__(self, width: int, height: int, title: str = "CLGame", border: bool = True, border_symbols: str = "┌─┐││└─┘", space_symbol: str = "`"):
         self.set_geometry(width, height)
         self.set_border(border)
         self.set_title(title)

@@ -1,8 +1,8 @@
 from setuptools import setup, find_packages
 
 def readme():
-  with open('README.md', 'r') as f:
-    return f.read()
+  with open('README.md', 'r') as file:
+    return file.read()
     
 setup(
   name='CLGame',

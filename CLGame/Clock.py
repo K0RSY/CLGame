@@ -14,6 +14,14 @@ class Clock():
         
         self.last_tick_time = time()
 
+
     def set_tps(self, tps: float):
         self.tps = tps
         self.tick_speed = 1 / tps
+
+
+    def get_tps(self):
+        return self.tps
+    
+    def get_tick_speed(self):
+        return self.tick_speed

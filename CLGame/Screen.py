@@ -39,6 +39,7 @@ class Screen():
     def fill(self, symbol: str):
         self.symbols = [[symbol[0]] * self.width for _ in range(self.height)]
 
+
     def set_geometry(self, width: int, height: int):
         self.width = width
         self.height = height
@@ -55,3 +56,19 @@ class Screen():
 
     def set_space_symbol(self, symbol: str):
         self.space_symbol = symbol
+
+
+    def get_geometry(self):
+        return (self.width, self.height)
+
+    def get_title(self):
+        return self.title 
+
+    def get_border(self):
+        return self.border
+
+    def get_border_symbols(self):
+        return self.border_symbols
+
+    def get_space_symbol(self):
+        return self.space_symbol

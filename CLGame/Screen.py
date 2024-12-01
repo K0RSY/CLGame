@@ -1,8 +1,4 @@
-from time import sleep, time
-from playsound import playsound
-from pynput import keyboard
 from os import system
-from threading import Thread
 
 class Screen():
     def __init__(self, width: int, height: int, title: str = "CLGame", border: bool = True, border_symbols: str = "┌─┐││└─┘", space_symbol: str = "`"):
@@ -59,44 +55,3 @@ class Screen():
 
     def set_space_symbol(self, symbol: str):
         self.space_symbol = symbol
-
-class Clock():
-    def __init__(self, tps: float = 30):
-        self.set_tps(tps)
-        
-        self.last_tick_time = time()
-        
-    def tick(self):
-        self.processes_end_time = time()
-        
-        wait_time = self.tick_speed - (self.processes_end_time - self.last_tick_time)
-        sleep(wait_time) if wait_time >= 0 else print("Overloading!")
-        
-        self.last_tick_time = time()
-
-    def set_tps(self, tps: float):
-        self.tps = tps
-        self.tick_speed = 1 / tps
-
-class Speaker():
-    def play(self, path: str):
-        playsound(path, False)
-
-class Reader():
-    def __init__(self):
-        self.binds = {}
-        self.listener = keyboard.Listener(on_press=self.key_press, on_release=lambda x: 0)
-        self.listener.start()
-
-    def key_press(self, key):
-        try:
-            if key.char in self.binds:
-                self.binds[key.char]()
-        except AttributeError:
-            pass
-
-    def bind(self, key: str, func):
-        self.binds[key] = func
-
-    def unbind(self, key: str):
-        del self.binds[key]

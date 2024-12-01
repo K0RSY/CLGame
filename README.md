@@ -27,7 +27,7 @@ Used libraries:
 - [Playsound](https://github.com/TaylorSMarks/playsound) by Taylor Marks
 
 ## Installing
-You can install CLGame by clonning repo:
+You can install CLGame by downloading the source code or by clonning the repo:
 ```bash
 git clone https://github.com/K0RSY/CLGame.git
 ```
